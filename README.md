@@ -22,6 +22,8 @@ Wiring:
 
 Go to previous level of the project folder and execute:
 
-    spark compile spark_DX_oled
+    spark compile spark_online_timer
 
-All code must be compiled and you can flash your bin to your core.
+All code must be compiled and you can flash your bin to your core:
+
+  spark flash [your core id] spark_online_timer
